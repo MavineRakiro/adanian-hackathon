@@ -1,0 +1,13 @@
+#FACIAL RECOGNITION DESIGN FLOW.
+#Using computer vision(cv2) this program aims to detect faces with the aim to store them using the barest storage space.
+#This will be used to log in in to "Developer's cult"
+#Haar cascade is used for face detection(find attached the file in this repository.)
+
+#DESIGN FLOW.
+# 1. Launch camera(spoiler alert ikik) and run a while loop till a face is found.
+# 2. Convert color to grey for better results.
+# 3. Convert and scale. Draw a rectangle around the face to ensure detection has taken place. 
+# 4. After facial recognition and data converion for storage, release the captured image and turn off camera. 
+# .......
+# The image is divided into pixels and then encodded into a numpy array. (Image is converted from numpy array to the equivalent image too.)
+# The stored(registered) image is then compared with the newly captured image using the numpy arrays
